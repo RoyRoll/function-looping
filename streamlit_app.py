@@ -21,7 +21,7 @@ if st.button("Calculate"):
         result = mo.multiply(x, y)
     elif operation == "Divide":
         try:
-            result = divide(x, y)
+            result = mo.divide(x, y)
         except ZeroDivisionError:
             st.error("Division by zero is not allowed.")
 
