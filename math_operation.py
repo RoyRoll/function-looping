@@ -7,7 +7,6 @@ def subtract(x, y):
 def multiply(x, y):
     return x * y
 def divide(x, y):
-    return x / y
     if y == 0:
         raise ZeroDivisionError("Division by zero is not allowed.")
     return x / y
